@@ -1,0 +1,71 @@
+#menu{
+  display:flex;
+  justify-content: center;/*centralizar menu-opcional*/
+  padding: 0; margin: auto;
+  margin-top: -0%;
+}
+#menu li{
+  list-style-type: none; /*none tira a bolinha da lista*/
+}
+#menu li a:hover{
+  background-color: rgb(181, 152, 245);
+}
+#menu li:hover>ul,ul li:hover{
+  visibility:visible;/*exibe o munu dropdown*/
+}
+
+
+#menu li a{
+  background-color: rgba(189, 151, 225, 0.841);
+  font-family: 'Open Sans' , sans-serif ;/*fonte do botão menu*/
+  text-decoration: none;/*retira o sublinhados*/
+  color:black;/*cor da fonte do menu*/
+  padding: 15px;/*padding para ficar com aspecto de botão*/
+  display: block;/*trasforma o link que é um tecde linha em uma tec de bloco*/
+
+}
+body{
+    font-size: 100%;
+    background: rgb(204, 153, 236);;
+}
+
+
+img{
+    display: flex;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    padding: 30px;
+    background-color: rgb(217, 105, 234);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    margin-top: 3%;
+    margin-left: 690px;/*margem direita*/
+    margin-right: 690px;/*margem esquerda*/
+}
+h1 {
+        text-align: center;
+        text-transform:uppercase;
+        color:rgb(0, 0, 0);
+        font-size: 32px;
+        margin-bottom: 30px;
+        position: relative;
+      }
+      h2{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        margin:28px;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration:none ;
+        justify-content: space-around;
+      }
+      h3{
+        color:rgb(47, 0, 52);
+        font-size: 20px;
+        margin-left:250px;/*margem direita*/
+        margin-right: 430px;/*margem esquerda*/
+        background-color: #e0c0ea;
+        border: 5px solid black;
+        padding: 10px;
+        margin: 20px;
+      }
